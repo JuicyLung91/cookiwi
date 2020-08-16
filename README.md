@@ -267,7 +267,7 @@ With the following html code you can display the cookie settings directly in the
 ```
 
 
-### Ausgabe eines direkten aktivierung Buttons ###
+### Output single buttons ###
 
 With the following html code you can directly replace a button in the content area which can activate a certain consent:
 
