@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Test</title>
+    <link rel="stylesheet" href="dist/cookieconsent-styles.css">
+</head>
+<body>
+
+    <h1>Cookie Test</h1>
+
+
+    <div style="max-width: 700px;" class="CookieConsentShowSettings"></div>
+    
+    <script src="dist/cookieconsent-app.min.js"></script>
+    <script>
+        let cookie = {
+    consents: {
+        youtube: {
+            name: 'Youtube',
+            info: 'Wir verwenden Youtube um bestimmte Inhalte interessanter zu gestalten. Bei der Verwendung von Youtube können Daten an Google übergeben werden.',
+            showSwitch: true,
+            cookieName: 'youtube',
+            onInit: (status) => {
+              console.log('init youtube');
+            },
+            onAllow: () => {
+              console.log('allow youtube');
+            },
+            onRevoke: () => {
+              console.log('revoke youtube');
+            }
+        },
+        gmaps: {
+            name: 'Google Maps',
+            info: 'Google Maps',
+            showSwitch: true,
+            cookieName: 'gmaps'
+        },
+        allgemein: {
+          name: "Grundlegende Cookies",
+          info: "Die grundlegenden Funktionen sind wichtig für eine einwandfreie Darstellung der Webseite. Diese Funktionen können nicht abgelehnt werden.",
+          showSwitch: false
+      }
+    },
+    palette: {
+      popup: {
+          background: "rgba(120, 120, 120, 0.7)",
+          text: "#787878"
+        },
+      button: {
+          background: "#de3f0e",
+          text: "#ffffff"
+        },
+    },
+    content: {
+      message: 'Um unsere Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwenden wir Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu. Weitere Informationen zu Cookies erhalten Sie in unserer <a href="/datenschutzerklaerung">Datenschutzerklärung</a>',
+      link: "Datenschutzerklärung.",
+      href: "https://pac-programm.de/datenschutz.php",
+      imprintLink: "http://127.0.0.1:5500/cookie-v2/impressum.html",
+      allow: "Akzeptieren",
+      dismiss: "Ablehnen",
+      optionsOpen: "Einstellungen Ändern"
+    },
+    template: {
+        Modal: {},
+        Settings: {},
+        Setup: {},
+        Footer: {},
+    },
+
+}
+
+
+window.cookiwi.init(cookie);
+    </script>
+</body>
+</html>
