@@ -80,22 +80,22 @@ Following text strings can be changed
 
 ```JavaScript
 let content = {
-    headlineSetup: 'Wir verwenden Cookies',
-    headlineSettings: 'Datenschutzeinstellungen',
-    message: 'Um unsere Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwenden wir Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu. Weitere Informationen zu Cookies erhalten Sie in unserer <a href="/datenschutzerklaerung">Datenschutzerklärung</a>',
-    messageSettings: 'Hier finden Sie eine Übersicht über alle verwendeten Cookies. Sie können Ihre Zustimmung zu ganzen Kategorien geben oder sich weitere Informationen anzeigen lassen und so nur bestimmte Cookies auswählen.',
-    imprintLink: '/impressum',
-    imprintText: 'Impressum',
-    privacyLink: '/datenschutzerklaerung',
-    privacyText: 'Datenschutzerklärung',
-    allow: "Cookies Akzeptieren",
-    allowAll: "Alle Akzeptieren",
-    dismiss: "Ablehnen",
-    optionsOpen: "Einstellungen ändern",
-    goBack: 'Zurück',
-    saveConsents: 'Speichern',
-    settingOn: 'An',
-    settingOff: 'Aus'
+    headlineSetup: 'We use cookies',
+    headlineSettings: 'Data Privacy Options',
+    message: 'We use cookies. Learn more about our <a href="/data-privacy">Data privacy</a>',
+    messageSettings: 'Here you will find an overview of all cookies used. You can agree or refuse',
+    imprintLink: '/imprint',
+    imprintText: 'Imprint',
+    privacyLink: '/data-privacy',
+    privacyText: 'Data privacy',
+    allow: "Allow cookies",
+    allowAll: "Allow all",
+    dismiss: "Refuse",
+    optionsOpen: "Open settings",
+    goBack: 'Back',
+    saveConsents: 'Save settings',
+    settingOn: 'On',
+    settingOff: 'Off'
 };
 
 ```
