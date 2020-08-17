@@ -5,9 +5,10 @@ The `cookiwi` property is globaly connected to the window property.
 ```JavaScript
     let cookie = {
         consents: {
-            allgemein: {
-                name: "Grundlegende Cookies",
-                info: "Die grundlegenden Funktionen sind wichtig für eine einwandfreie Darstellung der Webseite. Diese Funktionen können nicht abgelehnt werden.",
+            basic: {
+            basic: {
+                name: "Basic Cookies",
+                info: "Info about basic cookies.",
                 showSwitch: false
             }
         }
