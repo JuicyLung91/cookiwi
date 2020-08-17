@@ -16,7 +16,7 @@ The `cookiwi` property is globaly connected to the window property.
     window.cookiwi.init(cookie); //initialise the cookiebanner
 ```
 
-You can cuustomize the text strings by adding a `content` object to the `cookie` object. 
+You can customize the text strings by adding a `content` object to the `cookie` object. 
 You can also customize the colors by adding a `palette` object. 
 
 #### Full example
