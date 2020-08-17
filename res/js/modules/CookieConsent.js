@@ -118,7 +118,7 @@ class CookieConsent extends CookieLifesycle {
 
     /**
      * checks if both cookies are set
-     * if user has already gave consent in the previous days 
+     * if user has already given consent in the previous days 
      */
     hasConsent() {
         return this.getCookie(CookieStatusName) && this.getCookie(CookieConsentName);
