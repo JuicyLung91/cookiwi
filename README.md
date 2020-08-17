@@ -157,7 +157,7 @@ let palette = {
 
 
 ### Matomo ###
-Example to delay a matomo instance until the cookie banner allows the tracking.
+Example to delay a matomo instance until the cookie instance allows the tracking.
 For a delay inside matomo it is important to use the following function: `_paq.push(['requireConsent']);`
 
 ###### Beispiel:
